@@ -1,0 +1,79 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+body
+
+{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-color: rgb(255, 182, 36);
+background-image: url(https://images.unsplash.com/photo-1554791756-6d6cb6b45d5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80);
+
+
+}
+
+.loader
+{
+    position: relative;
+    display: flex;
+}
+
+.loader span
+{
+    /* position: relative; 
+    display: inline-block; */
+    font-size: 5em;
+    color: rgb(191, 191, 189);
+    display: block;
+    text-transform: uppercase;
+    /* animation: animate 2s ease-in-out infinite;
+    animation-delay: calc(0.1s* var(--i));
+    animation-play-state: paused; */
+    transition: all .3s ease-in-out;
+}
+/* 
+.loader:hover span 
+{
+animation-play-state: running;
+}
+
+@keyframes animate
+{
+    0%,40%,100%
+    {
+        transform: translateY(0);
+    }
+    20%
+    {
+        transform: translate(-50);
+    }
+} */
+
+.k:hover {
+    transform: translateY(-10px) rotate(16deg);
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.o:hover {
+    transform: translateY(-10px) rotate(-10deg);
+    cursor: pointer;
+}
+
+.m:hover {
+    transform: translateY(-10px) rotate(16deg);
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.e:hover {
+    transform: translateY(-10px)rotate(-16deg);
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
